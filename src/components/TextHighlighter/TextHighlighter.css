@@ -1,0 +1,48 @@
+.text-match-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-match-container::after {
+  content: '';
+  position: absolute;
+  bottom: 1px;
+  left: 1px;
+  right: 10px;
+  height: 30px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0) 100%);
+}
+
+.highlighter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.highlighter-title {
+  font-weight: 500;
+  font-size: 1.1em;
+} 
+
+.match-count {
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.text-container {
+  padding: 15px 20px;
+  border: 1px dotted #cecece;
+  border-radius: 4px;
+  overflow: auto;
+  align-self: stretch;
+  margin: 0;
+  line-height: 1.5em;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.highlighter {
+  background-color: rgba(233, 154, 143, 0.8);
+}
+

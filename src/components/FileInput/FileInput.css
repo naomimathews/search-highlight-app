@@ -1,0 +1,7 @@
+.file-input-container {
+  position: relative;
+}
+
+.file-input {
+  display: none;
+}

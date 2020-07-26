@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #414141;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  outline-color:#EAA090;
+}
+
+.gradient-button {
+  background: linear-gradient(90deg, rgba(215,93,132,1) 0%, rgba(240,179,147,1) 100%);
+  border-radius: 4px;
+  padding: 15px 30px;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1em;
+  text-transform: capitalize;
+  box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.1);
+  border: none;
 }
