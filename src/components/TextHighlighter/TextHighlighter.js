@@ -59,10 +59,11 @@ function TextHighlighter (props) {
   useEffect(() => {
     if (searchQuery) {
       const matches = getAllMatchesForQuery(text, searchQuery)
+      debugger
       if (matches.length) {
         handleMatchesFound(text, searchQuery, matches)
       } else {
-        handleMatchesNotFound()
+        handleMatchesNotFound(text)
       }
     } else {
       handleMatchesNotFound(text)
