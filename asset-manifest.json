@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/search-highlight-app/static/css/main.1fd29e48.chunk.css",
+    "main.js": "/search-highlight-app/static/js/main.727c362e.chunk.js",
+    "main.js.map": "/search-highlight-app/static/js/main.727c362e.chunk.js.map",
+    "runtime-main.js": "/search-highlight-app/static/js/runtime-main.bceb5b7e.js",
+    "runtime-main.js.map": "/search-highlight-app/static/js/runtime-main.bceb5b7e.js.map",
+    "static/js/2.fa6bf978.chunk.js": "/search-highlight-app/static/js/2.fa6bf978.chunk.js",
+    "static/js/2.fa6bf978.chunk.js.map": "/search-highlight-app/static/js/2.fa6bf978.chunk.js.map",
+    "index.html": "/search-highlight-app/index.html",
+    "precache-manifest.cc9cce84a09046443d0d3b81f91f8e79.js": "/search-highlight-app/precache-manifest.cc9cce84a09046443d0d3b81f91f8e79.js",
+    "service-worker.js": "/search-highlight-app/service-worker.js",
+    "static/css/main.1fd29e48.chunk.css.map": "/search-highlight-app/static/css/main.1fd29e48.chunk.css.map",
+    "static/js/2.fa6bf978.chunk.js.LICENSE.txt": "/search-highlight-app/static/js/2.fa6bf978.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bceb5b7e.js",
+    "static/js/2.fa6bf978.chunk.js",
+    "static/css/main.1fd29e48.chunk.css",
+    "static/js/main.727c362e.chunk.js"
+  ]
+}
